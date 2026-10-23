@@ -1,0 +1,17 @@
+# Keep credentials, browser data and private working files out of the repository.
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.token
+*cookie*
+*credential*
+*secret*
+*password*
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+
